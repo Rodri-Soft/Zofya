@@ -1,0 +1,70 @@
+#logo_header{
+    width: 100px;
+}
+
+.bg-dark{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    background-color: rgba(34,40,49, .8)!important;
+}
+
+.navg a{
+    margin-right: 20px;
+    font-size: 16px;    
+    padding: 10px 15px;
+    text-align: center;        
+}
+
+.badge{
+    font-size: .6em;
+}
+
+.translate-middle {
+    transform: translate(-8%,-70%)!important;
+} 
+
+.navItem_padding{
+    padding-top: 16px;
+}
+
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 45%;     
+    left: 20%;
+    right: 30%;        
+    color: #fff;
+    text-align: left;
+}
+
+.mask{
+    background: linear-gradient(
+                      to bottom,
+                      hsla(0, 0%, 0%, 0.1) 10%,
+                      hsla(0, 0%, 0%, 0.8)
+                    );
+}
+
+
+@media (min-width: 768px) {
+    .carousel-caption h1{
+        font-size: 50px;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .carousel-item{
+        height: 750px;    
+    }    
+}
+
+
+
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a{
+    color: white;
+}
