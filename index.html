@@ -87,16 +87,17 @@
           <!-- Avatar -->
 
           <!-- Icon -->
-          <li class="nav-item me-3 me-lg-0 dropdown">
+          <li class="nav-item me-lg-0 dropdown">
             <a
               class="navItem_padding nav-link dropdown-toggle"
               href="#"
               id="navbarDropdown"
               role="button"
               data-mdb-toggle="dropdown"
-              aria-expanded="false"              
+              aria-expanded="false"
+                           
             >
-              <i class="fas fa-user" style="margin-right: 5px;"></i>
+              <i id="userAccountIcon" class="fas fa-user" style="margin-right: 8px;"></i>
               Account
             </a>
             <ul class="dropdown-menu dropdown-menu-end" style="margin-right: 50%;" aria-labelledby="navbarDropdown">
@@ -199,34 +200,47 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- <script>
+  <script>
 
     $(document).ready(function(){
 
-      var wishListBadge = $('#iconTest').text();
-      wishListBadge = Number(wishListBadge) +  1;
+      var userNameAccount = $('#navbarDropdown').text();
+      userNameAccount = userNameAccount.trim();      
+      userNameAccount = "Rodrigo";
+
       
+      $('#navbarDropdown').text("");
+
+      $('#navbarDropdown').append(
+        $("<i id='userAccountIcon' class='fas fa-user' style='margin-right: 8px;'></i>")
+      );
+      $('#navbarDropdown').append(userNameAccount);
       
-      $('#iconTest').text(wishListBadge);
 
-
-      const breakPointLarge = 992;
-
-      $(window).resize(function () {
-        
-        var width = $(window).width();
-        width += 17;
-        
-        if(width < 992) {
-          $('#navBarList').removeClass("ms-auto");
-
-        } else {
-          $('#navBarList').addClass("ms-auto");
-        }
-
-      });
-    })
     
-  </script> -->
+
+
+      // var wishListBadge = $('#iconTest').text();
+      // wishListBadge = Number(wishListBadge) +  1;      
+      // $('#iconTest').text(wishListBadge);
+
+      // const breakPointLarge = 992;
+      // $(window).resize(function () {
+        
+      //   var width = $(window).width();
+      //   width += 17;
+        
+      //   if(width < 992) {
+      //     $('#navBarList').removeClass("ms-auto");
+
+      //   } else {
+      //     $('#navBarList').addClass("ms-auto");
+      //   }
+
+      // });
+      
+    });
+    
+  </script>
 </body>
 </html>
