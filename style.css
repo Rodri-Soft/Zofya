@@ -2,6 +2,16 @@
     width: 100px;
 }
 
+.brand-zofya{
+    font-family: 'Roboto', sans-serif;    
+    text-transform: uppercase;
+    letter-spacing: 0.225em;
+}
+
+.brand-zofya-logo{
+    font-weight: 400;    
+}
+
 .bg-dark{
     position: fixed;
     z-index: 20;
@@ -9,11 +19,63 @@
     background-color: rgba(34,40,49, .8)!important;
 }
 
-.navg a{
-    margin-right: 20px;
-    font-size: 16px;    
-    padding: 10px 15px;
-    text-align: center;        
+.navbar-dark .navbar-nav .nav-link:hover{    
+    color: hsla(0, 0%, 100%, .9);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: hsla(0, 0%, 100%, .55);  
+}
+ 
+.link-text-style:hover, .icon-style:hover{
+    color: hsla(0, 0%, 100%, .9)!important;
+}
+
+.icon-style{
+    margin-right: -2px;    
+    color: hsla(0, 0%, 100%, .55);  
+}
+
+.text-reset{
+    color: hsla(0, 0%, 100%, .55)!important;        
+}
+
+.link-text-style{
+    font-size: 9px;
+}
+
+#brand-zofya-center {
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .link-text-style{
+        font-size: 13px;
+    }
+
+    .dropdown-style{
+        font-size: 13px;
+    }
+
+    #brand-zofya-center {
+        font-size: 27px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {    
+
+    .link-text-style{
+        font-size: 15px;
+    }
+
+    .dropdown-style{
+        font-size: 15px;
+    }
 }
 
 .badge{
@@ -24,14 +86,10 @@
     transform: translate(-8%,-70%)!important;
 } 
 
-.navItem_padding{
-    padding-top: 16px;
-}
-
 .carousel-caption {
     position: absolute; 
     right: 15%;
-    top: 45%;     
+    top: 30%;     
     left: 20%;
     right: 30%;        
     color: #fff;
@@ -46,20 +104,19 @@
                     );
 }
 
-
 @media (min-width: 768px) {
     .carousel-caption h1{
         font-size: 50px;
     }        
+    
 }
 
 @media (min-width: 1200px) {
     .carousel-item{
-        height: 750px;    
+        max-height: 650px;   
+        object-fit: cover; 
     }    
 }
-
-
 
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
