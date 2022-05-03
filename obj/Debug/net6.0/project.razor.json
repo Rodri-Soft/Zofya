@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Zofya.csproj",
+  "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Zofya.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,43 +16298,43 @@
   "RootNamespace": "Zofya",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rodrigo Sanchez\\Desktop\\Zofya\\Pages\\Shared\\_ZofyaLayout.cshtml",
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Shared\\_ZofyaLayout.cshtml",
       "TargetPath": "Pages\\Shared\\_ZofyaLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
