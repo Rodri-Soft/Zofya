@@ -1,0 +1,34 @@
+@page
+@model IndexModel
+@{
+    Layout = "_ZofyaLayout";
+    ViewData["Title"] = "Zofya";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/zofya_itemspage_style.css"/>
+}
+
+<main id="main">
+  <div class="container">
+    <hr>
+    <div class="row" id="items"></div>
+  </div>
+
+  <template id="template-card">
+    <div class="col-4 mb-2">
+      <div class="card">
+        <img id="item-image" class="img-card-top">
+        <div class="card-body">
+          <h5 id="item-name">Name</h5>
+          <p id="item-price">Price</p>
+          <button id="item-color"></button>
+          <p id="item-sizes">Sizes</p>
+          <button class="btn btn-dark">Shop</button>
+        </div>
+      </div>
+    </div>
+  </template>
+</main>
+
+<script src="/js/items.js"></script>
