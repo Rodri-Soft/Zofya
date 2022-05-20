@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Zofya.csproj": {}
+    "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\zofya\\Zofya.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Zofya.csproj": {
+    "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\zofya\\Zofya.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Zofya.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\zofya\\Zofya.csproj",
         "projectName": "Zofya",
-        "projectPath": "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Zofya.csproj",
+        "projectPath": "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\zofya\\Zofya.csproj",
         "packagesPath": "C:\\Users\\Rodrigo Sanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\zofya\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

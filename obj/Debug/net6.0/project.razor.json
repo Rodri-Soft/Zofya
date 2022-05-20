@@ -16333,6 +16333,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\LogIn.cshtml",
+      "TargetPath": "Pages\\LogIn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Rodrigo Sanchez\\OneDrive - Universidad Veracruzana\\Documentos\\SextoSemestre\\Desarrollo de sistemas en red\\Proyecto\\Zofya\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

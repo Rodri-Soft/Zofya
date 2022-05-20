@@ -43,67 +43,75 @@
         <!-- Pills content -->
         <div class="tab-content">
         <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-            <form>
-            <div class="text-center mb-3">
-                <h3 class="brand-zofya brand-zofya-logo">Sign in</h3>
-            </div>            
+            <form class="needs-validation form-login" novalidate>
+                <div class="text-center mb-3">
+                    <h3 class="brand-zofya brand-zofya-logo">Sign in</h3>
+                </div>            
 
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-                <input type="email" id="loginName" class="form-control" />
-                <label class="form-label" for="loginName">Email or username</label>
-            </div>
+                <!-- Email input -->
+                
+                <div class="form-outline">
+                    <input type="email" id="validationCustom-login-email" class="form-control" required/>
+                    <label class="form-label" for="validationCustom-login-email">Email</label>                
+                    <div class="invalid-feedback">Invalid email.</div>
+                </div>
 
-            <!-- Password input -->
-            <div class="form-outline mb-4">
-                <input type="password" id="loginPassword" class="form-control" />
-                <label class="form-label" for="loginPassword">Password</label>
-            </div>
-            
+                <!-- Password input -->
+                <div class="form-outline mb-5">
+                    <input type="password" id="validationCustom-login-password" class="form-control" required/>
+                    <label class="form-label" for="validationCustom-login-password">Password</label>
+                    <div class="invalid-feedback">Invalid password.</div>
+                </div>           
+                
 
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
 
-            <!-- Register buttons -->
-            <div class="text-center">
-                <p>Not a member? <a id="register-link" href="#">Register</a></p>
-            </div>
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Not a member? <a id="register-link" href="#">Register</a></p>
+                </div>
             </form>
         </div>
         <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
-            <form>
+            <form class="needs-validation form-register" novalidate>
             <div class="text-center mb-3">
                 <h3 class="brand-zofya brand-zofya-logo">Register</h3>
             </div>      
 
             <!-- Name input -->
-            <div class="form-outline mb-4">
-                <input type="text" id="registerName" class="form-control" />
-                <label class="form-label" for="registerName">Name</label>
+            <div class="form-outline">
+                <input type="text" id="validationCustom-register-name" class="form-control" required/>
+                <label class="form-label" for="validationCustom-register-name">Name</label>
+                <div class="invalid-feedback">Invalid Name.</div>
             </div>
 
             <!-- Username input -->
-            <div class="form-outline mb-4">
-                <input type="text" id="registerUsername" class="form-control" />
-                <label class="form-label" for="registerUsername">Username</label>
+            <div class="form-outline">
+                <input type="number" id="validationCustom-register-phone" class="form-control" required/>
+                <label class="form-label" for="validationCustom-register-phone">Phone</label>
+                <div class="invalid-feedback">Invalid Phone.</div>
             </div>
 
             <!-- Email input -->
-            <div class="form-outline mb-4">
-                <input type="email" id="registerEmail" class="form-control" />
-                <label class="form-label" for="registerEmail">Email</label>
+            <div class="form-outline">
+                <input type="email" id="validationCustom-register-email" class="form-control" required/>
+                <label class="form-label" for="validationCustom-register-email">Email</label>
+                <div class="invalid-feedback">Invalid Email.</div>
             </div>
 
             <!-- Password input -->
-            <div class="form-outline mb-4">
-                <input type="password" id="registerPassword" class="form-control" />
-                <label class="form-label" for="registerPassword">Password</label>
+            <div class="form-outline">
+                <input type="password" id="validationCustom-register-password" class="form-control" required/>
+                <label class="form-label" for="validationCustom-register-password">Password</label>
+                <div class="invalid-feedback">Invalid Password.</div>
             </div>
 
             <!-- Repeat Password input -->
-            <div class="form-outline mb-4">
-                <input type="password" id="registerRepeatPassword" class="form-control" />
-                <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+            <div class="form-outline">
+                <input type="password" id="validationCustom-register-repassword" class="form-control" required/>
+                <label class="form-label" for="validationCustom-register-repassword">Repeat password</label>
+                <div class="invalid-feedback">Invalid Password.</div>
             </div>
 
             <!-- Checkbox -->
@@ -122,7 +130,7 @@
             </div>
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+            <button type="submit" class="btn btn-primary btn-block mb-3">Register</button>
             </form>
         </div>
         </div>

@@ -13,6 +13,19 @@
     color: hsla(0, 0%, 100%, .9)!important;    
 }
 
+.form-register .form-outline .active,
+.form-login .form-outline .active{
+    color: #4f4f4f!important;
+}
+
+.form-login .form-outline{
+    margin-bottom: 10%;
+}
+
+.form-register .form-outline{
+    margin-bottom: 7%;
+}
+
 .container-login .nav-item .active,
 .container-login button{
     background-color: #c66!important;
