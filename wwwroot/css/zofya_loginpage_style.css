@@ -41,3 +41,15 @@
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+.modal-body{
+    color: #4f4f4f!important;
+}
+
+#button-close-modal{
+    background-color: transparent!important;
+}
+
+#check-label{
+    margin-bottom: 5%;
+}
